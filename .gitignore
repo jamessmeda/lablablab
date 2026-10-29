@@ -1,0 +1,16 @@
+# Images (incoming, failed, processed)
+*.tif
+*.tiff
+*.gif
+*.jpg
+*.JPG
+app/fail/
+tifimages/
+
+# Binaries / compiled
+*.exe
+*.class
+
+# Credentials
+app/imageload.props
+app/imageload.props~

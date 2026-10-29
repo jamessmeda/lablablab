@@ -1,0 +1,26 @@
+
+C:\GribblesImages\app>REM Run script for starting image processing app until 
+
+C:\GribblesImages\app>REM established as a service. 
+
+C:\GribblesImages\app>REM If you run this manually, make sure that its the ONLY ; copy running. 
+
+C:\GribblesImages\app>REM If you don't you may find that some of the ; images are doubled up! 
+
+C:\GribblesImages\app>REM
+
+C:\GribblesImages\app>REM Contact Terry Pulford on 33310 or Peter Zviedrans if 
+
+C:\GribblesImages\app>REM you have any queries. 
+
+C:\GribblesImages\app>set JAVA_HOME="C:\Java\jdk1.6.0_10-rc2" 
+
+C:\GribblesImages\app>path="C:\Java\jdk1.6.0_10-rc2"\bin;C:\jython2.5.2;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Users\pfvlttg\AppData\Local\Microsoft\WindowsApps; 
+
+C:\GribblesImages\app>set classpath=C:\GribblesImages\jars\jai_codec.jar; C:\GribblesImages\jars\jai_core.jar;C:\GribblesImages\jars\jai_imageio.jar;C:\GribblesImages\jars\ojdbc6.jar; 
+
+C:\GribblesImages\app>C:
+
+C:\GribblesImages\app>cd C:\GribblesImages\app 
+
+C:\GribblesImages\app>jython.bat __run__.py -p imageload.props 
